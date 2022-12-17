@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(6, 68, 6);
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+#heading{
+    color:goldenrod;
+}
+button{
+    width:150px;
+    padding:5px 0px;
+    color:green;
+    font-weight:bold;
+    background-color:goldenrod;
+    border:none;
+    border-radius:3px;
+}
+p{
+    margin:40px 0px;
+}
+#display{
+    color:goldenrod;
+    font-family:cursive;
+    font-size:32px;
+}
+div{
+   margin-bottom:4px; 
+}
+button:hover{
+    box-shadow: 1.5px 1.5px rgb(7, 32, 7);
+}
