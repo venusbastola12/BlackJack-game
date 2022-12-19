@@ -91,14 +91,20 @@ function getRandomCard() {
   }
 }
 function newgame() {
-  cardsEl.textContent = "cards: ";
-  cards.pop();
-  sum = 0;
-  sumEl.textContent = "sum: "+sum;
+  
+  
 
-  //newEl.textContent="Newcard: ";
-  displayEl.textContent = "";
-  hasBlackJack = false;
-  isAlive = false;
+    cardsEl.textContent = "cards: ";
+    cards.pop();
+    sum = 0;
+    sumEl.textContent = "sum: "+sum;
+  
+    //newEl.textContent="Newcard: ";
+    displayEl.textContent = "";
+    hasBlackJack = false;
+    isAlive = false;
+    afterBet.money=0;
+    betEl.textContent="Money in bet:$"+afterBet.money;
+    
   
 }
