@@ -30,3 +30,10 @@ div{
 button:hover{
     box-shadow: 1.5px 1.5px rgb(7, 32, 7);
 }
+img{
+    height:100px;
+    width:75px;
+    border:2px solid black;
+    margin-right:5px;
+    overflow:hidden;
+}
