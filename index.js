@@ -1,4 +1,5 @@
 let firstCard,secondCard,sum=0;
+let exit=0;
 
 let cards = []; //declaring array
 let isAlive = false; //declaring boolean variable
